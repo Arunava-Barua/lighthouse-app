@@ -1,0 +1,40 @@
+{
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_tokenName",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_tokenSymbol",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_maxSupply",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createToken",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getAllTokenAddresses",
+            "outputs": [
+                {
+                    "internalType": "contract Token[]",
+                    "name": "",
+                    "type": "address[]"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}
