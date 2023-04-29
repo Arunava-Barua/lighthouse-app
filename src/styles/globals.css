@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Chivo Mono", monospace;
+}
+
+body {
+  background-color: #1a1a1d !important;
+  /* padding: 20px; */
+}
+
+.nav-h {
+  height: calc(100vh - 78px);
+}
+
+.glassmorphism {
+  background: rgba(0, 0, 0, 0.39);
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
+}
+
+.arrow {
+  display: inline-block;
+  color: #767679;
+  transition: transform 0.2s ease-in-out;
+}
+p:hover .arrow {
+  transform: translateX(5px);
+  color: #9f9fa1;
+}

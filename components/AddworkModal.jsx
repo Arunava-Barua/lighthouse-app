@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import lighthouse from "@lighthouse-web3/sdk";
 
-import CreateMeetContext from "@/context/MeetContext";
+import CreateMeetContext from "../context/MeetContext";
 
 const LIGHT_HOUSE_API_KEY = "0b3c3932.48efe20e0ff742b9971d2d2c40947539";
 
